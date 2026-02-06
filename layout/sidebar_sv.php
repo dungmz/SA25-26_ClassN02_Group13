@@ -3,45 +3,45 @@
     <i class="bi bi-list"></i>
   </button>
   <div class="sidebar-top">
-    <a href="/YCPM2/YCPM/dashboard_sv.php" class="active">
+    <a href="/KTPM2/KTPM/dashboard_sv.php" class="active">
       <i class="bi bi-speedometer2"></i> <span><?= t('common.dashboard') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/schools/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/schools/index_sv.php">
       <i class="bi bi-building"></i> <span><?= t('common.schools') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/faculties/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/faculties/index_sv.php">
       <i class="bi bi-diagram-3"></i> <span><?= t('common.faculties') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/majors/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/majors/index_sv.php">
       <i class="bi bi-layers"></i> <span><?= t('common.majors') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/employees/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/employees/index_sv.php">
       <i class="bi bi-person-badge"></i> <span><?= t('common.lecturers') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/programs/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/programs/index_sv.php">
       <i class="bi bi-journal-bookmark"></i> <span><?= t('common.programs_abbrev') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/dangkyhocphan/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/dangkyhocphan/index_sv.php">
       <i class="bi bi-journal-check"></i> <span><?= t('common.course_registration') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/cocau/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/cocau/index_sv.php">
       <i class="bi bi-diagram-3-fill"></i> <span><?= t('common.org_structure') ?></span>
     </a>
 
-    <a href="/YCPM2/YCPM/modules/settings/index_sv.php">
+    <a href="/KTPM2/KTPM/modules/settings/index_sv.php">
       <i class="bi bi-gear"></i> <span><?= t('common.settings') ?></span>
     </a>
   </div>
 
   <div class="sidebar-bottom">
-    <a href="/YCPM2/YCPM/logout.php" class="text-danger">
+    <a href="/KTPM2/KTPM/logout.php" class="text-danger">
       <i class="bi bi-box-arrow-right"></i> <span><?= t('common.sign_out') ?></span>
     </a>
   </div>

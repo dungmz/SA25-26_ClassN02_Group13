@@ -1,6 +1,6 @@
 <?php
 if (session_status()===PHP_SESSION_NONE) session_start();
-$basePath = '/YCPM2/YCPM/';
+$basePath = '/KTPM2/KTPM/';
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'giangvien') {
   header('Location: '.$basePath.'login.php');
   exit;

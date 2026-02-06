@@ -35,17 +35,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['hocphan'])) {
 
   <ul class="nav nav-tabs mb-4">
     <li class="nav-item">
-      <a class="nav-link active" href="/YCPM2/YCPM/modules/dangkyhocphan/index_sv.php">
+      <a class="nav-link active" href="/KTPM2/KTPM/modules/dangkyhocphan/index_sv.php">
         <i class="bi bi-pencil-square"></i> <?php echo t('dangkyhocphan.tab_register'); ?>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/YCPM2/YCPM/modules/dangkyhocphan/ketqua_sv.php">
+      <a class="nav-link" href="/KTPM2/KTPM/modules/dangkyhocphan/ketqua_sv.php">
         <i class="bi bi-search"></i> <?php echo t('dangkyhocphan.tab_results'); ?>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/YCPM2/YCPM/modules/dangkyhocphan/thanhtoan_sv.php">
+      <a class="nav-link" href="/KTPM2/KTPM/modules/dangkyhocphan/thanhtoan_sv.php">
         <i class="bi bi-cash-coin"></i> <?php echo t('dangkyhocphan.tab_payment'); ?>
       </a>
     </li>
@@ -144,10 +144,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['hocphan'])) {
         </table>
 
         <div class="text-center mt-4">
-          <a href="/YCPM2/YCPM/modules/dangkyhocphan/ketqua_sv.php" class="btn btn-primary">
+          <a href="/KTPM2/KTPM/modules/dangkyhocphan/ketqua_sv.php" class="btn btn-primary">
             <i class="bi bi-search"></i> <?php echo t('dangkyhocphan.view_results'); ?>
           </a>
-          <a href="/YCPM2/YCPM/modules/dangkyhocphan/index_sv.php" class="btn btn-secondary">
+          <a href="/KTPM2/KTPM/modules/dangkyhocphan/index_sv.php" class="btn btn-secondary">
             <i class="bi bi-arrow-left-circle"></i> <?php echo t('dangkyhocphan.back'); ?>
           </a>
         </div>

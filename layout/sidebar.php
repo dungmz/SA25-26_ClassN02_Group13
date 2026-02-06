@@ -1,5 +1,5 @@
 <?php
-$basePath = '/YCPM2/YCPM/';
+$basePath = '/KTPM2/KTPM/';
 ?>
 
 <div class="sidebar" id="sidebar">
@@ -40,7 +40,7 @@ $basePath = '/YCPM2/YCPM/';
   <a href="<?= $basePath ?>modules/employees/index.php" class="<?= strpos($_SERVER['PHP_SELF'],'employees')!==false?'active':'' ?>">
     <i class="bi bi-person-badge"></i> <span><?= t('common.staff') ?></span>
   </a>
-    <a href="/YCPM2/YCPM/modules/dangkyhocphan/admin_view.php">
+    <a href="/KTPM2/KTPM/modules/dangkyhocphan/admin_view.php">
     <i class="bi bi-clipboard-check"></i> <span><?= t('common.manage_course_regs') ?></span>
   </a>
 

@@ -100,7 +100,7 @@ $theme = $_SESSION['theme'] ?? 'light';
         <?php endif; ?>
         <li><hr class="dropdown-divider"></li>
         <li>
-          <a href="/YCPM2/YCPM/modules/notifications/index.php" class="dropdown-item text-center text-primary fw-semibold">Xem tất cả thông báo</a>
+          <a href="/KTPM2/KTPM/modules/notifications/index.php" class="dropdown-item text-center text-primary fw-semibold">Xem tất cả thông báo</a>
         </li>
       </ul>
     </div>
@@ -118,7 +118,7 @@ $theme = $_SESSION['theme'] ?? 'light';
 <script>
 document.addEventListener('shown.bs.dropdown', function(e){
   if(e.target && e.target.id === 'notifDropdown'){
-    fetch('/YCPM2/YCPM/modules/notifications/mark_read.php')
+    fetch('/KTPM2/KTPM/modules/notifications/mark_read.php')
       .then(r=>r.json())
       .then(_=>{
         const badge = document.querySelector('#notifDropdown .badge');
@@ -127,7 +127,7 @@ document.addEventListener('shown.bs.dropdown', function(e){
   }
 });
 setInterval(()=>{
-  fetch('/YCPM2/YCPM/modules/notifications/count_new.php')
+  fetch('/KTPM2/KTPM/modules/notifications/count_new.php')
     .then(res=>res.json())
     .then(data=>{
       let badge = document.querySelector('#notifDropdown .badge');

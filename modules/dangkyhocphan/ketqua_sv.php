@@ -40,7 +40,7 @@ $result = $conn->query($query);
 
   <ul class="nav nav-tabs mb-4">
     <li class="nav-item">
-      <a class="nav-link" href="/YCPM2/YCPM/modules/dangkyhocphan/index_sv.php">
+      <a class="nav-link" href="/KTPM2/KTPM/modules/dangkyhocphan/index_sv.php">
         <i class="bi bi-pencil-square"></i> <?php echo t('dangkyhocphan.tab_register'); ?>
       </a>
     </li>
@@ -50,7 +50,7 @@ $result = $conn->query($query);
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/YCPM2/YCPM/modules/dangkyhocphan/thanhtoan_sv.php">
+      <a class="nav-link" href="/KTPM2/KTPM/modules/dangkyhocphan/thanhtoan_sv.php">
         <i class="bi bi-cash-coin"></i> <?php echo t('dangkyhocphan.tab_payment'); ?>
       </a>
     </li>

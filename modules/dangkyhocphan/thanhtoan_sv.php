@@ -38,12 +38,12 @@ $result = $conn->query($query);
 
   <ul class="nav nav-tabs mb-4">
     <li class="nav-item">
-      <a class="nav-link" href="/YCPM2/YCPM/modules/dangkyhocphan/index_sv.php">
+      <a class="nav-link" href="/KTPM2/KTPM/modules/dangkyhocphan/index_sv.php">
         <i class="bi bi-pencil-square"></i> <?php echo t('dangkyhocphan.tab_register'); ?>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/YCPM2/YCPM/modules/dangkyhocphan/ketqua_sv.php">
+      <a class="nav-link" href="/KTPM2/KTPM/modules/dangkyhocphan/ketqua_sv.php">
         <i class="bi bi-search"></i> <?php echo t('dangkyhocphan.tab_results'); ?>
       </a>
     </li>
@@ -140,7 +140,7 @@ document.getElementById("payNow")?.addEventListener("click", function() {
     html: `
       <div style="text-align:center">
         <p><b>${totalLabel}:</b> ${soTien} VND</p>
-        <img src="/YCPM2/YCPM/assets/qr_do_hai_lam.png" 
+        <img src="/KTPM2/KTPM/assets/qr_do_hai_lam.png" 
              style="width:250px;height:250px;border-radius:10px;border:1px solid #ccc;margin-top:10px;">
         <div class="mt-3">
           <p><b>${accountOwner}:</b> DO HAI LAM</p>
