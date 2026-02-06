@@ -11,15 +11,15 @@
 
 ## Tao co so du lieu
 1. Mo `http://localhost/phpmyadmin`.
-2. Tao database ten `YCPM` (co the bo qua neu da co).
-3. Import file [database.sql](database.sql) vao database `YCPM`.
+2. Tao database ten `tkpm` (co the bo qua neu da co).
+3. Import file [database.sql](database.sql) vao database `TKPM`.
 
 ## Cau hinh ket noi
 - Mo [config/db.php](config/db.php) va dam bao cac thong tin:
   - host: `localhost`
   - user: `root`
   - password: (rong neu mac dinh XAMPP)
-  - database: `YCPM`
+  - database: `tkpm`
 
 ## Gan API key (neu co)
 - Khong cong khai API key len Git hoac noi dung chia se cong cong.
